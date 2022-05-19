@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'yeseva';
+    src: url('../fonts/Yeseva/yesevaone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Yeseva/yesevaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+
+header{
+    background-color: #F6ACBC;
+}
+.btn-primary {
+    color: white;
+    border-color: #35AE8A;
+    background-color: #35AE8A;
+}
+
+header .logo{
+    padding-left: 15px;
+    width: 50px;
+    height: auto;
+}
+
+.btn-outline-primary {
+    color: #009371;
+    border-color: white;
+    background-color: white;
+}
+
+.carousel-indicators [data-bs-target]{
+    border-top: 10px solid  #35AE8A;
+}
+
+h1{
+    font-family: 'yeseva';
+    color: #FF6A3D;
+    font-size: 40;
+    padding-right: 50px;
+}
+h2{
+    font-family: 'manrope';
+    font-weight: bold;
+}
+p{
+    font-family: 'manrope';
+    color: black;
+    font-size: 16px;
+    padding-right: 50px;
+}
+a{
+    font-family: 'manrope';
+    color: black;
+    font-size: 16px;
+}
+
+h3, h4{
+    font-family: 'yeseva';
+    font-size: 24px;
+}
+h5{
+    font-family: 'manrope';
+    font-size: 16;
+}
+
+.article-image img{
+    width: 50%;
+    height: auto;
+}
+.article-icon{
+    width: 5%;
+    height: auto;
+    border-radius: 50%;
+}
+.gallery video, .gallery img{
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    float: left;
+}
+
+.side, .comments, .buttons{
+    background-color: #F8F4EC;
+}
+.side-art{
+    align-items: center;
+    background-color: #FFDFEF;
+}
+.side-art img{
+    width: 70%;
+    height: auto;
+}
+
+img.images-art{
+    width: 60%;
+    height: auto;
+}
+img.images-art2{
+    width: 30%;
+    height: auto;
+}
+
+footer{
+    background-color: #35AE8A;
+}
+.text-muted{
+    --bs-text-opacity: 1;
+    color: black!important;
+}
+
+.site-map {
+    text-align: center;
+}
+.privacy-policy h1, h2 {
+    text-align: center;
+}
+.privacy-policy{
+    padding: 10%;
+}
+.privacy-policy strong{
+    color: #FF6A3D;
+}
+
+.site-map img{
+    width: 100%;
+    height: auto;
+}
+
+.buttons button{
+    color: white;
+    font-family: 'Manrope';
+    border-color: #35AE8A;
+    background-color: #35AE8A;
+}
+
+.comments-art{
+    left: 10%;
+}
+
+.foro, .community, .about-us{
+    background-color:#FFDFEF
+}
+.foro img{
+    float: left;
+    padding-right: 20px;
+}
+.foro p{
+    text-align: left;
+    text-decoration: none;
+}
+.heart img{
+    width: 50px;
+    height: auto;
+}
+
+.avatar{
+    width: 25%;
+    border-radius: 50%;
+}
+.avatar-com{
+    width: 10%;
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+}
+.people img{
+    width: 200px;
+    height: auto;
+    align-items: center;
+}
+.about-us, .people h1{
+    color: black;
+}
+.about-us{
+    text-align: center;
+}
+
+a{
+    color:#FF6A3D;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-item a:hover, .nav-item a:active{
+    font-weight: bold;
+}
+
+.nav-commu a:hover, .nav-commu a:active{
+    font-weight: bold;
+}
+
+.nav-bar a:hover, .nav-bar a:active{
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #00755A;
+    border-color: #35AE8A;
+}
+
+.signin-cont{
+    padding-left: 100px;
+}
+.social-media img{
+    width: 7%;
+    height: auto;
+}
+.social-media-ft img{
+    width: 64px;
+    height: auto;
+    margin: 12px;
+}
+.icon-profile{
+    width: 50px; 
+    height: auto;
+}
+.logo-ft{
+    width: 50px;
+}
+.like-comment{
+    width: 55px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.pink{
+    padding: 10px 40px;
+    background-color: #F6ACBC;
+    border: #F6ACBC;
+}
+
+img.article-three {
+    width: 220px;
+    height: auto;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+}
+
+.numbers strong{
+    color: #FF6A3D;
+}
+
+.numbers p{
+    color: #999191;
+}
+
+.foro-side a{ 
+    text-decoration: none;
+}
+
+.comments-box a{
+    text-decoration: none;
+}
+
+img.icon-us{
+    width: 222px;
+    height: auto;
+    align-items: center;
+}
+
+@media only screen and (min-width: 420px) {
+    img.logo-ft{
+        width: 80px;
+    }
+
+    .gallery video, .gallery img{
+        width: 300px;
+        height: auto;
+        float: left;
+    }
+    .gallery video{
+        padding-bottom: 5px;
+    }
+}
